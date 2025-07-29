@@ -1,6 +1,6 @@
 EXE_INC = \
     -I../../lnInclude
 
-EXE_LIB = \
+EXE_LIBS = \
     -L$(FOAM_USER_LIBBIN) \
     -lradlib
