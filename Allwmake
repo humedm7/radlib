@@ -1,0 +1,21 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/wmake/scripts/AllwmakeParseArguments
+
+#------------------------------------------------------------------------------
+
+# Build main radlib first
+wmake $targetType .
+
+# Build examples
+wmake $targetType examples/ex_B3
+wmake $targetType examples/ex_S1
+wmake $targetType examples/ex_S2
+wmake $targetType examples/ex_S3
+wmake $targetType examples/ex_S4
+wmake $targetType examples/ex_S5
+wmake $targetType examples/ex_Sb1
+wmake $targetType examples/parallel_planes
+wmake $targetType examples/simple_interface
+
+#------------------------------------------------------------------------------

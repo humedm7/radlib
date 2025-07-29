@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ex_B3.C": "cpp",
+        "ex_S1.C": "cpp",
+        "ex_S2.C": "cpp",
+        "ex_S3.C": "cpp",
+        "ex_S4.C": "cpp",
+        "ex_S5.C": "cpp",
+        "ex_Sb1.C": "cpp",
+        "parallel_planes.C": "cpp",
+        "simple_interface.C": "cpp"
+    }
+}

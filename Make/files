@@ -1,0 +1,10 @@
+/* plank mean */
+radModels/planckMean/rad_planck_mean.C
+
+/* rcslw */
+radModels/rcslw/rad_rcslw.C
+
+/* wsgg */
+radModels/wsgg/rad_wsgg.C
+
+LIB = $(FOAM_USER_LIBBIN)/libradlib

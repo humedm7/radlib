@@ -1,8 +1,0 @@
-.ipynb_checkpoints
-*.pdf
-*.c
-*.so
-build
-__pycache__
-get_pythonpath_command.py
-setup.py

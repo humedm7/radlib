@@ -1,0 +1,4 @@
+EXE_INC = \
+    -IlnInclude
+
+LIB_LIBS = 
