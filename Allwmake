@@ -7,6 +7,10 @@ cd "${0%/*}" || exit                                # Run from this directory
 # Build main radlib first
 wmake $targetType .
 
+# Build rcslw_data binaries
+wmake $targetType data/rcslw_data
+./data/rcslw_data/writebin.x
+
 # Build examples
 wmake $targetType examples/ex_B3
 wmake $targetType examples/ex_S1
