@@ -1,3 +1,4 @@
 ex_Sb1.C
+parallel_planes.C
 
 EXE = ../ex_Sb1.x

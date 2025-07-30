@@ -1,4 +1,5 @@
 EXE_INC = \
-    -IlnInclude
+    -IlnInclude \
+    -DRCSLW_DATA_DIR="`PWD`/data/rcslw_data"
 
 LIB_LIBS = 

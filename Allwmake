@@ -16,6 +16,7 @@ export DYLD_LIBRARY_PATH="$FOAM_LD_LIBRARY_PATH"
 cd ../..
 
 # Build examples
+wmake $targetType examples/simple_interface
 wmake $targetType examples/ex_B3
 wmake $targetType examples/ex_S1
 wmake $targetType examples/ex_S2
@@ -23,7 +24,5 @@ wmake $targetType examples/ex_S3
 wmake $targetType examples/ex_S4
 wmake $targetType examples/ex_S5
 wmake $targetType examples/ex_Sb1
-wmake $targetType examples/parallel_planes
-wmake $targetType examples/simple_interface
 
 #------------------------------------------------------------------------------

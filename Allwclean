@@ -20,5 +20,6 @@ wclean examples/ex_S5
 wclean examples/ex_Sb1
 wclean examples/parallel_planes
 wclean examples/simple_interface
+rm -rf examples/*.x
 
 #------------------------------------------------------------------------------
