@@ -9,7 +9,11 @@ wmake $targetType .
 
 # Build rcslw_data binaries
 wmake $targetType data/rcslw_data
-./data/rcslw_data/writebin.x
+
+cd data/rcslw_data
+export DYLD_LIBRARY_PATH="$FOAM_LD_LIBRARY_PATH"
+./writebin.x
+cd ../..
 
 # Build examples
 wmake $targetType examples/ex_B3

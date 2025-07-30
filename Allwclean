@@ -1,0 +1,24 @@
+#!/bin/sh
+#------------------------------------------------------------------------------
+# Build main radlib first
+wclean .
+
+# Build rcslw_data binaries
+wclean data/rcslw_data
+
+cd data/rcslw_data
+rm -rf *.x *.bin
+cd ../..
+
+# Build examples
+wclean examples/ex_B3
+wclean examples/ex_S1
+wclean examples/ex_S2
+wclean examples/ex_S3
+wclean examples/ex_S4
+wclean examples/ex_S5
+wclean examples/ex_Sb1
+wclean examples/parallel_planes
+wclean examples/simple_interface
+
+#------------------------------------------------------------------------------

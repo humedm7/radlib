@@ -1,4 +1,5 @@
 #!/bin/bash
+export DYLD_LIBRARY_PATH="$FOAM_LD_LIBRARY_PATH"
 
 printf "\n\n********** Simple Interface\n"
 ./simple_interface.x
