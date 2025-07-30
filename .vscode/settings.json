@@ -8,6 +8,7 @@
         "ex_S5.C": "cpp",
         "ex_Sb1.C": "cpp",
         "parallel_planes.C": "cpp",
-        "simple_interface.C": "cpp"
+        "simple_interface.C": "cpp",
+        "writebin.C": "cpp"
     }
 }
